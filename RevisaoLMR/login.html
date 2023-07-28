@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Solarys</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/logo-solarys-removebg-preview.png" alt="logo" style="width: 70px; height: 60px;">
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="">Produtos</a>
+            <a href="">Contato</a>
+            <a href="">Login</a>
+        </div>
+        <img src="img/menu-hamburguer.png" alt="menuHamburger" class="hb">
+        <div class="menuHb">
+            <ul>
+                <li><a href="index.html" class="linkMenu">Home</a></li>
+                <li><a href="" class="linkMenu">Produtos</a></li>
+                <li><a href="" class="linkMenu">Contato</a></li>
+                <li><a href="login.html" class="linkMenu">Login</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="centralizar">
+            <div class="formulario">
+                <div class="formImg">
+                    <img src="img/loginImg.png" alt="ImagemLogin">
+                </div>
+                <div class="formTxt">
+                    <h2>Login</h2>
+                    <input type="text" id="lnome" name="nome" size="23" placeholder="Insira seu nome de usuário">
+                    <input type="password" id="lsenha" name="senha" size="23" placeholder="Insira sua senha">
+                    <div class="remember">
+                        <input type="checkbox" id="lrelembrar" name="relembrar" value="relembrar"> Lembrar-me
+                        <a href="senha.html" id="esqueciSenha">Esqueci minha Senha</a>
+                    </div>
+                    <input type="submit" id="lenviar" value="Entrar" name="enviar" size="10" onclick="login()">
+                    <a href="cadastro.html" id="novoCadastro">Novo Aqui? Faça Seu Cadastro.</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
