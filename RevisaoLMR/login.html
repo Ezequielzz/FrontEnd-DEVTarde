@@ -5,17 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Solarys</title>
 </head>
 
 <body>
     <header>
-        <img src="img/logo-solarys-removebg-preview.png" alt="logo" style="width: 70px; height: 60px;">
+        <a class="navLogo" href="index.html">
+            <img src="img/logo-solarys-removebg-preview.png" alt="logo" style="width: 70px; height: 60px;">
+        </a>
         <div class="menu">
-            <a href="index.html">Home</a>
-            <a href="produtos.html">Produtos</a>
-            <a href="contato.html">Contato</a>
-            <a href="login.html">Login</a>
+            <a href="index.html" id="links">Home</a>
+            <a href="produtos.html" id="links">Produtos</a>
+            <a href="contato.html" id="links">Contato</a>
+            <a href="login.html" id="links">Login</a>
+            <a href="cadastro.html" id="links">Cadastro</a>
         </div>
         <img src="img/menu-hamburguer.png" alt="menuHamburger" class="hb">
         <div class="menuHb">
@@ -24,11 +29,13 @@
                 <li><a href="" class="linkMenu">Produtos</a></li>
                 <li><a href="" class="linkMenu">Contato</a></li>
                 <li><a href="login.html" class="linkMenu">Login</a></li>
+                <li><a href="cadastro.html" class="linkMenu">Cadastro</a></li>
             </ul>
         </div>
     </header>
     <section>
         <div class="centralizar">
+            <form action="">
             <div class="formulario">
                 <div class="formImg">
                     <img src="img/loginImg.png" alt="ImagemLogin">
@@ -45,8 +52,13 @@
                     <a href="cadastro.html" id="novoCadastro">Novo Aqui? Faça Seu Cadastro.</a>
                 </div>
             </div>
+        </form>
         </div>
     </section>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 
 </html>
