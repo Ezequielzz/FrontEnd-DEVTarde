@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+    margin: 0%;
+    height: 100vh;
+}
+
+.semaforo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 500px;
+    background-color: black;
+    padding: 20px;
+}
+
+.vermelho, .amarelo, .verde {
+    width: 160px;
+    height: 150px;
+    border-radius: 120px;
+}
+
+.vermelho {
+    margin-bottom: 15px;
+    background-color: red;
+    border-color: red;
+    border: red 2px solid;
+}
+
+.amarelo {
+    margin-bottom: 15px;
+    background-color: yellow;
+    border-color: yellow;
+    border: yellow 2px solid;
+}
+
+.verde {
+    background-color: rgb(3, 211, 3);
+    border-color: rgb(3, 211, 3);
+    border: rgb(3, 211, 3) 2px solid;
+}
