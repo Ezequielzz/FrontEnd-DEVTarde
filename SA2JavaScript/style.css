@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 233, 233);
+    height: 100vh;
+}
+
+.semaforo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    height: 550px;
+    background-color: rgb(39, 39, 39);
+    padding: 20px;
+    border-radius: 20px;
+    border: 4px solid rgb(117, 117, 117);
+}
+
+.vermelho, .amarelo, .verde {
+    width: 180px;
+    height: 170px;
+    border-radius: 120px;
+}
+
+.vermelho {
+    margin-bottom: 15px;
+    background-color: red;
+    border-color: red;
+    border: red 2px solid;
+}
+
+.amarelo {
+    margin-bottom: 15px;
+    background-color: yellow;
+    border-color: yellow;
+    border: yellow 2px solid;
+}
+
+.verde {
+    background-color: rgb(3, 211, 3);
+    border-color: rgb(3, 211, 3);
+    border: rgb(3, 211, 3) 2px solid;
+}
+
+.desligado {
+    opacity: 0.6;
+}
+
+.botao {
+    margin: 10px;
+    padding: 7px;
+    font-size: 17px;
+    border-radius: 7px;
+    border-color: black;
+}
+
+.botao:hover {
+    border-color: rgb(88, 88, 88);
+}
+
+#bVermelho {
+    background-color: rgb(255, 255, 255);
+}
+
+#bVermelho:hover {
+    transition: 0.4s;
+    background-color: red;
+}
+
+#bAmarelo {
+    background-color: rgb(255, 255, 255);
+}
+
+#bAmarelo:hover {
+    transition: 0.4s;
+    background-color: yellow;
+}
+
+#bVerde {
+    background-color: rgb(255, 255, 255);
+}
+
+#bVerde:hover {
+    transition: 0.4s;
+    background-color: rgb(3, 211, 3);
+}
+
+#bAuto {
+    background-color: rgb(255, 255, 255);
+}
+
+#bAuto:hover {
+    transition: 0.4s;
+    background-color: rgb(0, 140, 255);
+    color: white;
+}
+
+#bReset {
+    background-color: rgb(255, 255, 255);
+}
+
+#bReset:hover {
+    transition: 0.4s;
+    background-color: rgb(0, 140, 255);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .semaforo {
+        width: 35%;
+        height: 78%;
+    }
+
+    .vermelho, .amarelo, .verde {
+        width: 150px;
+        height: 150px;
+        border-radius: 120px;
+    }
+
+    .botao {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .semaforo {
+        width: 95%;
+    }
+
+    .botao {
+        font-size: 12px;
+    }
+}
