@@ -1,0 +1,13 @@
+/* src/Gallery.css */
+
+/* Define o tamanho padrão para as imagens na galeria */
+.image-container img {
+    margin: 5px;
+    width: 150px; /* Define o tamanho desejado para as imagens */
+    height: 200px;
+}
+
+.image-container {
+    border-radius: 20px;
+    background: rgb(0, 0, 0);
+}
