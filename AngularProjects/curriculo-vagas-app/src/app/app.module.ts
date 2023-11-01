@@ -7,6 +7,8 @@ import { InicioComponent } from './view/inicio/inicio.component';
 import { CurriculosComponent } from './view/curriculos/curriculos.component';
 import { VagasComponent } from './view/vagas/vagas.component';
 import { PainelVagasComponent } from './view/painel-vagas/painel-vagas.component';
+import { HeaderComponent } from './template/header/header.component';
+import { FooterComponent } from './template/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { PainelVagasComponent } from './view/painel-vagas/painel-vagas.component
     InicioComponent,
     CurriculosComponent,
     VagasComponent,
-    PainelVagasComponent
+    PainelVagasComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
