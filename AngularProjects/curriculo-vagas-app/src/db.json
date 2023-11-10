@@ -9,7 +9,7 @@
         },
         {
             "id": 2,
-            "nome": "Desenvolver BackEnd Pleno",
+            "nome": "Desenvolver BackEnd Pleno",                        
             "foto": "foto2.jpg",
             "descricao": "Trabalhar com Desenvolvimento Web",
             "salario": 7000
@@ -21,5 +21,6 @@
             "descricao": "Trabalhar com Desenvolvimento Web",
             "salario": 10000
         }
-    ]
+    ],
+    "curriculos": []
 }
